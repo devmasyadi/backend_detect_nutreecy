@@ -1,21 +1,13 @@
-# YOLOv11 dan dependency-nya
 ultralytics>=8.3.0
-
-# OpenCV untuk akses kamera dan visualisasi
 opencv-python>=4.10.0
-
-# Torch dan torchvision untuk inference (GPU optional)
-# Jika kamu mau versi CPU-only, baris ini sudah cukup:
 torch>=2.3.0
 torchvision>=0.18.0
-
 # Jika kamu ingin pastikan CUDA 12.1 (GPU NVIDIA)
-# kamu bisa install manual:
 # pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-
-# (Opsional) Argparse untuk CLI args
 argparse>=1.4.0
-
-# (Opsional) Numpy untuk array ops
 numpy>=1.26.0
 pandas
+uvicorn
+fastapi
+gunicorn
+python-multipart

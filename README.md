@@ -6,7 +6,7 @@ python main.py \
 
 
 python main.py \
-  --base-url https://app.masyadi.com \
+  --base-url https://be-nutreecyai.masyadi.com \
   --save-crops \
   --crop-dir output
 

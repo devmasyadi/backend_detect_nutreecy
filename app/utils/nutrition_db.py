@@ -13,6 +13,7 @@ NUTRITION_DB = {
     "jeruk":         {"portion": "1 buah sedang (~130 g)", "calories": 62,  "protein": 1.2, "carbs": 15.4, "fat": 0.2},
     "apel":          {"portion": "1 buah sedang (~182 g)", "calories": 95,  "protein": 0.5, "carbs": 25,   "fat": 0.3},
     "alpukat":       {"portion": "1 buah sedang (~150 g)", "calories": 240, "protein": 3,   "carbs": 12.8, "fat": 22},
+    "ketoprak":       {"portion": "1 buah sedang (~150 g)", "calories": 240, "protein": 3,   "carbs": 12.8, "fat": 22},
 }
 
 def get_nutrition(cls_name: str):

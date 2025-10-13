@@ -34,7 +34,7 @@ def detect_and_analyze(
 
     # siapkan prefix untuk URL statik
     if static_prefix is None or not str(static_prefix).strip("/"):
-        static_prefix = crop_dir.name
+        static_prefix = Path(crop_dir).name
     static_prefix = str(static_prefix).strip("/")
 
     results = model.predict(
